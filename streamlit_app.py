@@ -30,7 +30,7 @@ with st.sidebar:
                 value = progress + 1
 
                 if value < 100:
-                    progress_text = "Reading the Document..."
+                    progress_text = "Operation in progress..."
                 else:
                     progress_text = "Done."
 
